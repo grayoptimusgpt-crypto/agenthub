@@ -1,0 +1,281 @@
+{
+  "svc_1771062666780_sonddd": {
+    "name": "Text Summarizer",
+    "description": "Summarize any text or URL into concise bullet points using advanced NLP. Ideal for articles, documents, and web content.",
+    "category": "nlp",
+    "tags": [
+      "summarization",
+      "text",
+      "ai",
+      "nlp"
+    ],
+    "endpoint": "https://x402-apis.vercel.app/api/summarize",
+    "userId": 0,
+    "pricing": {
+      "amount": "10000",
+      "currency": "USDC",
+      "network": "base",
+      "humanPrice": "$0.01"
+    },
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "maxLength": {
+          "type": "number"
+        }
+      }
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "sentenceCount": {
+          "type": "number"
+        }
+      }
+    },
+    "id": "svc_1771062666780_sonddd",
+    "status": "active",
+    "stats": {
+      "totalCalls": 0,
+      "revenue": "0"
+    }
+  },
+  "svc_1771062666781_qc564r": {
+    "name": "Web Scraper",
+    "description": "Extract readable content from any webpage. Removes ads, navigation, and clutter to return clean article/text content.",
+    "category": "data",
+    "tags": [
+      "scraping",
+      "web",
+      "extraction",
+      "content"
+    ],
+    "endpoint": "https://x402-apis.vercel.app/api/scrape",
+    "userId": 0,
+    "pricing": {
+      "amount": "5000",
+      "currency": "USDC",
+      "network": "base",
+      "humanPrice": "$0.005"
+    },
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        }
+      }
+    },
+    "id": "svc_1771062666781_qc564r",
+    "status": "active",
+    "stats": {
+      "totalCalls": 0,
+      "revenue": "0"
+    }
+  },
+  "svc_1771062666781_pcaloh": {
+    "name": "Sentiment Analyzer",
+    "description": "Analyze the sentiment of any text with confidence scores. Supports positive, negative, and neutral classification.",
+    "category": "nlp",
+    "tags": [
+      "sentiment",
+      "analysis",
+      "ai",
+      "nlp",
+      "emotion"
+    ],
+    "endpoint": "https://x402-apis.vercel.app/api/sentiment",
+    "userId": 0,
+    "pricing": {
+      "amount": "5000",
+      "currency": "USDC",
+      "network": "base",
+      "humanPrice": "$0.005"
+    },
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "sentiment": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "number"
+        }
+      }
+    },
+    "id": "svc_1771062666781_pcaloh",
+    "status": "active",
+    "stats": {
+      "totalCalls": 0,
+      "revenue": "0"
+    }
+  },
+  "svc_1771062666781_uj020c": {
+    "name": "Crypto Prices",
+    "description": "Real-time cryptocurrency price data from CoinGecko. Get prices, market caps, volume, and historical data.",
+    "category": "finance",
+    "tags": [
+      "crypto",
+      "bitcoin",
+      "ethereum",
+      "price",
+      "finance"
+    ],
+    "endpoint": "https://x402-apis.vercel.app/api/crypto/price",
+    "userId": 0,
+    "pricing": {
+      "amount": "1000",
+      "currency": "USDC",
+      "network": "base",
+      "humanPrice": "$0.001"
+    },
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "coin": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        }
+      }
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": "number"
+        },
+        "marketCap": {
+          "type": "number"
+        }
+      }
+    },
+    "id": "svc_1771062666781_uj020c",
+    "status": "active",
+    "stats": {
+      "totalCalls": 0,
+      "revenue": "0"
+    }
+  },
+  "svc_1771062666781_zdvm6j": {
+    "name": "Screenshot",
+    "description": "Capture full-page screenshots of any website. Returns PNG images of complete web pages.",
+    "category": "data",
+    "tags": [
+      "screenshot",
+      "web",
+      "capture",
+      "visual"
+    ],
+    "endpoint": "https://x402-apis.vercel.app/api/screenshot",
+    "userId": 0,
+    "pricing": {
+      "amount": "10000",
+      "currency": "USDC",
+      "network": "base",
+      "humanPrice": "$0.01"
+    },
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number"
+        }
+      }
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "imageUrl": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number"
+        }
+      }
+    },
+    "id": "svc_1771062666781_zdvm6j",
+    "status": "active",
+    "stats": {
+      "totalCalls": 0,
+      "revenue": "0"
+    }
+  },
+  "svc_1771062666781_urtvqn": {
+    "name": "Domain Enrichment",
+    "description": "Get DNS records, WHOIS data, and detect technologies used on any domain.",
+    "category": "data",
+    "tags": [
+      "domain",
+      "dns",
+      "whois",
+      "enrichment",
+      "security"
+    ],
+    "endpoint": "https://x402-apis.vercel.app/api/enrich/domain",
+    "userId": 0,
+    "pricing": {
+      "amount": "10000",
+      "currency": "USDC",
+      "network": "base",
+      "humanPrice": "$0.01"
+    },
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        },
+        "includeWhois": {
+          "type": "boolean"
+        }
+      }
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "dns": {
+          "type": "object"
+        },
+        "technologies": {
+          "type": "array"
+        }
+      }
+    },
+    "id": "svc_1771062666781_urtvqn",
+    "status": "active",
+    "stats": {
+      "totalCalls": 0,
+      "revenue": "0"
+    }
+  }
+}
