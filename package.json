@@ -1,0 +1,13 @@
+{
+  "name": "agenthub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AgentHub - AI Agent Services Marketplace API",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

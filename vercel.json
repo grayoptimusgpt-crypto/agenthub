@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/services/:id/pay", "destination": "/api/services/pay?id=$1" },
+    { "source": "/api/services/:id/call", "destination": "/api/services/call?id=$1" },
+    { "source": "/api/services/:id", "destination": "/api/services/detail?id=$1" }
+  ]
+}
